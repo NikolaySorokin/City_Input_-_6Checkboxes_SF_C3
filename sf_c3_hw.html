@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<title>Skillfactory_C2_HW</title>
+</head>
+<body>
+	<main class="container align-content-center">
+		<div class="city-input-group input-group input-group-lg mb-3 mt-5" style="display: none;">
+		  <div class="input-group-prepend">
+		    <span class="input-group-text" id="addon1">Ваш город:</span>
+		  </div>
+		  <input type="text" class="city-input form-control" placeholder="введите ваш город" aria-label="City" aria-describedby="addon1, addon2">
+		  <div class="input-group-append">
+		    <button class="input-btn input-group-btn btn btn-warning" id="addon2">Сохранить</button>
+		  </div>
+		</div>
+		<div class="your-city-group mt-5 mb-3" style="display: none;">
+			<div class="delete-alert alert alert-danger" role="alert" style="display: none;">
+			  Информация о городе удалена из cookies!
+			</div>
+			<p class="your-city display-4"></p>
+			<button class="your-city-btn btn btn-primary">Удалить город</button>
+		</div>
+
+		<div class="mt-5">
+			<div class="form-check mt-1 mb-1">
+			  <input class="form-check-input" type="checkbox" name="option" value="option-1" id="check1">
+			  <label class="form-check-label" for="check1">
+			    Меня зовут Ноздревич Клоц
+			  </label>
+			</div>
+			<div class="form-check mt-1 mb-1">
+			  <input class="form-check-input" type="checkbox" name="option" value="option-2" id="check2">
+			  <label class="form-check-label" for="check2">
+			    Не выбирай эту галочку
+			  </label>
+			</div>
+			<div class="form-check mt-1 mb-1">
+			  <input class="form-check-input" type="checkbox" name="option" value="option-3" id="check3">
+			  <label class="form-check-label" for="check3">
+			    Я пойду голосовать за поправки в Конституцию
+			  </label>
+			</div>
+			<div class="form-check mt-1 mb-1">
+			  <input class="form-check-input" type="checkbox" name="option" value="option-4" id="check4">
+			  <label class="form-check-label" for="check4">
+			    &#9757; Конечно же нет!
+			  </label>
+			</div>
+			<div class="form-check mt-1 mb-1">
+			  <input class="form-check-input" type="checkbox" name="option" value="option-5" id="check5">
+			  <label class="form-check-label" for="check5">
+			    Конор Макгрегор опять завершил карьеру
+			  </label>
+			</div>
+			<div class="form-check mt-1 mb-1">
+			  <input class="form-check-input" type="checkbox" name="option" value="option-6" id="check6">
+			  <label class="form-check-label" for="check6">
+			    Куплю биткоины
+			  </label>
+			</div>
+			<button class="save-chk btn btn-warning btn-lg mt-3">Сохранить</button>
+		</div>
+	</main>
+	
+	<script src="./js/jquery.min.js"></script>
+    <script src="./js/city_script.js"></script>
+    <script src="./js/check_script.js"></script>
+</body>
+</html>
